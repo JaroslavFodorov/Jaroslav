@@ -1,0 +1,137 @@
+@font-face {
+    src: url("../fonts/Nunito-Bold.ttf");
+    font-family: "Nunito Bold";
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(to right, white 50%, #F8F8FA 50%);
+}
+
+h1 {
+    margin: 0;
+}
+
+.title {
+    text-align: center;
+    font-family: "Nunito Bold", sans-serif;
+    font-size: 36px;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+    color: #000000;
+    top: 27px;
+    margin-left: -10px;
+}
+
+.title span {
+    color: #DD3142;
+    font-size: 52px;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    flex-direction: row;
+}
+/*.block {
+    display: inline-block;
+    vertical-align: top;
+}*/
+
+.first {
+    padding: 192px 0;
+}
+
+.second {
+    /*background: #F8F8FA;*/
+    /*padding: 254px 448px 331px 11px;*/
+}
+
+.block__title {
+    font-family: "Nunito Bold", sans-serif;
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 7px;
+}
+
+.block__text {
+    font-family: "Nunito Bold", sans-serif;
+    font-size: 22px;
+    line-height: 27px;
+    color: #636363;
+    margin-bottom: 52px;
+}
+
+.block__form {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.block__form__title {
+    text-align: left;
+    font-family: "Nunito Bold", sans-serif;
+    font-size: 16px;
+    color: #C6C6C4;
+}
+
+.block__form input {
+    font-family: "Nunito Bold", sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    color: #323232;
+    width: 452px;
+    border: 0;
+    padding: 5px 0;
+    outline: none;
+    border-bottom: 1px solid #C6C6C4;
+    margin-bottom: 20px;
+}
+
+#agree_checkbox {
+    width: 16px;
+}
+
+.block__form label {
+    font-family: "Nunito Bold", sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    color: #636363;
+}
+
+.block__btn {
+    background: #DD3142;
+    border-radius: 40px;
+    border: 0;
+    font-family: "Nunito Bold", sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 210px;
+    padding: 21px 0 25px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+#agree_checkbox {
+    margin-right: 10px;
+}
+
+.block__href {
+    font-family: "Nunito Bold", sans-serif;
+    font-size: 16px;
+    color: #636363;
+    text-decoration: none;
+    margin-left: 128px;
+}
+
+.first .block__btn {
+    margin-left: 114px;
+}
+
+
+
+
